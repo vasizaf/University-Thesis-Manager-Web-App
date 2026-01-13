@@ -40,6 +40,7 @@ The system replaces manual paperwork with a digital workflow, allowing users to:
 ## 📂 Project Structure
 The codebase is structured to separate logic (PHP), webpages (HTML), styling (CSS), and interactivity (JS):
 
+```text
 ├── css/                  # Styling for specific user roles (foititis.css, kathigitis.css, etc.)
 ├── html/                 # User Interface and views (Login forms, Dashboard layouts)
 ├── js/                   # Frontend logic (AJAX calls, form validation, charts)
@@ -48,6 +49,7 @@ The codebase is structured to separate logic (PHP), webpages (HTML), styling (CS
 │   ├── auth_check.php    # Middleware to check user login status
 │   └── ... (API endpoints)
 └── uploads/              # Storage for uploaded thesis drafts and notes
+```
 
 ## 🚀 How to Run Locally
 
@@ -79,7 +81,7 @@ Since this project uses Native PHP and MySQL, you will need a local server envir
 
 This project was designed and built as a group assignment for the **[University of Patras]** Computer Engineering and Informatics Department.
 
-* **[Vasileips Zafeiris]** - *[Student & Professor(secondarily) Logic, HTML, CSS]*
+* **[Vasileios Zafeiris]** - *[Student & Professor (secondarily) Logic, HTML, CSS]*
 * **[Ioannis Grigoropoulos]** - *[Professor Logic, MySQL]* - [GitHub Profile](https://github.com/Nolzok)
 * **[Alkis Chatzopoulos]** - *[Secretary Logic]* - [GitHub Profile](https://github.com/their-AlkisChatz)
 
