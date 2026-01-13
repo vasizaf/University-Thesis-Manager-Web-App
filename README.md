@@ -40,7 +40,6 @@ The system replaces manual paperwork with a digital workflow, allowing users to:
 ## 📂 Project Structure
 The codebase is structured to separate logic (PHP), webpages (HTML), styling (CSS), and interactivity (JS):
 
-```text
 ├── css/                  # Styling for specific user roles (foititis.css, kathigitis.css, etc.)
 ├── html/                 # User Interface and views (Login forms, Dashboard layouts)
 ├── js/                   # Frontend logic (AJAX calls, form validation, charts)
@@ -49,3 +48,40 @@ The codebase is structured to separate logic (PHP), webpages (HTML), styling (CS
 │   ├── auth_check.php    # Middleware to check user login status
 │   └── ... (API endpoints)
 └── uploads/              # Storage for uploaded thesis drafts and notes
+
+## 🚀 How to Run Locally
+
+Since this project uses Native PHP and MySQL, you will need a local server environment (like **XAMPP** or **WAMP**) to run it.
+
+1.  **Clone the repository:**
+    * git clone [https://github.com/your-username/thesis-management-system.git](https://github.com/your-username/thesis-management-system.git)
+  
+2.  **Move the folder:**
+    * Copy the project folder.
+    * Paste it inside your local server's root directory:
+        * **XAMPP:** `C:\xampp\htdocs\`
+        * **WAMP:** `C:\wamp64\www\`
+
+3.  **Setup the Database:**
+    * Open phpMyAdmin (usually `http://localhost/phpmyadmin`).
+    * Create a new database named `thesis_db` (⚠️ Check your `php/database.php` file to confirm the exact name expected).
+    * Import the `.sql` file provided in this repo to create the necessary tables.
+
+4.  **Configure Connection:**
+    * Open the `php/database.php` file.
+    * Ensure the `$username` (usually `root`) and `$password` (usually empty for XAMPP) match your local server setup.
+
+5.  **Run the App:**
+    * Start Apache and MySQL in XAMPP/WAMP.
+    * Open your browser and visit: `http://localhost/thesis-management-system/html/login.html`
+
+## 👥 Contributors
+
+This project was designed and built as a group assignment for the **[University of Patras]** Computer Engineering and Informatics Department.
+
+* **[Vasileips Zafeiris]** - *[Student & Professor(secondarily) Logic, HTML, CSS]*
+* **[Ioannis Grigoropoulos]** - *[Professor Logic, MySQL]* - [GitHub Profile](https://github.com/Nolzok)
+* **[Alkis Chatzopoulos]** - *[Secretary Logic]* - [GitHub Profile](https://github.com/their-AlkisChatz)
+
+---
+Note: This project is for educational purposes and demonstrates full-stack CRUD capabilities without the use of high-level frameworks.
