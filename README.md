@@ -56,7 +56,9 @@ The codebase is structured to separate logic (PHP), webpages (HTML), styling (CS
 Since this project uses Native PHP and MySQL, you will need a local server environment (like **XAMPP** or **WAMP**) to run it.
 
 1.  **Clone the repository:**
-    * git clone [https://github.com/vasizaf/University-Thesis-Manager-Web-App.git](https://github.com/vasizaf/University-Thesis-Manager-Web-App.git)
+   ```bash
+   git clone [https://github.com/vasizaf/University-Thesis-Manager-Web-App.git](https://github.com/vasizaf/University-Thesis-Manager-Web-App.git)
+   ```
   
 2.  **Move the folder:**
     * Copy the project folder.
