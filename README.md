@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![University](https://img.shields.io/badge/Context-University%20Project-blue)
-![Tech](https://img.shields.io/badge/Tech-PHP%20%7C%20MySQL%20%7C%20JS-orange)
+![Tech](https://img.shields.io/badge/Tech-PHP%20%7C%20JS%20%7C%20MySQL%20%7C%20CSS%20%7C%20HTML-orange)
 
 ## 📄 About The Project
 This web application was developed to digitize and streamline the thesis management process for university departments. It serves as a central hub where all stakeholders—Students, Professors, and Secretaries can collaborate efficiently.
