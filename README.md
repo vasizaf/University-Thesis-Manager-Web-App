@@ -51,6 +51,19 @@ The codebase is structured to separate logic (PHP), webpages (HTML), styling (CS
 └── uploads/              # Storage for uploaded thesis drafts and notes
 ```
 
+## 📸 Screenshots
+* Professor Theses Page
+
+![Professor Theses Page](screenshots/professor_theses_page.png)
+
+* Thesis Assignment
+
+![Thesis Assignment](screenshots/thesis_assignment.png)
+
+* Database Schema
+
+![DB Schema](screenshots/db_schema.png)
+
 ## 🚀 How to Run Locally
 
 Since this project uses Native PHP and MySQL, you will need a local server environment (like **XAMPP** or **WAMP**) to run it.
