@@ -7,7 +7,7 @@
 ![Tech](https://img.shields.io/badge/Tech-PHP%20%7C%20JS%20%7C%20MySQL%20%7C%20CSS%20%7C%20HTML-orange)
 
 ## 📄 About The Project
-This web application was developed to digitize and streamline the thesis management process for university departments. It serves as a central hub where all stakeholders—Students, Professors, and Secretaries can collaborate efficiently.
+This web application was developed to digitize and streamline the thesis management process for university departments. It serves as a central hub where all stakeholders - Students, Professors, and Secretaries can collaborate efficiently.
 
 The system replaces manual paperwork with a digital workflow, allowing users to:
 * **Assign & Manage:** Professors can create and assign topics, accept student applications, grade theses
